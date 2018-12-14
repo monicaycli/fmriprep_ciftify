@@ -1,0 +1,1 @@
+Based on [https://hub.docker.com/r/tigrlab/fmriprep_ciftify](https://hub.docker.com/r/tigrlab/fmriprep_ciftify), modified to work with Singularity.
