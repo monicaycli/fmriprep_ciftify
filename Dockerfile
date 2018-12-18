@@ -12,7 +12,7 @@ mv /tmp/tmp.bashrc $HOME/.bashrc
 ENV PATH=$PATH:/home/code/ciftify/ciftify/bidsapp
 
 # setup singularity compatible entry points to run the initialization script
-RUN mkdir /scratch
+RUN mkdir /scratch && mkdir /work && mkdir /apps && mkdir /apps2
 
 RUN /usr/bin/env \
 | sed  '/^HOME/d' \
